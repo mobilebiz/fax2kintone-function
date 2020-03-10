@@ -1,0 +1,20 @@
+{
+  "name": "fax2kintone-function",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "twilio-run --env"
+  },
+  "devDependencies": {
+    "twilio-run": "^2.0.0"
+  },
+  "engines": {
+    "node": "8.10.0"
+  },
+  "dependencies": {
+    "@kintone/kintone-js-sdk": "^0.7.6",
+    "request-promise": "^4.2.5",
+    "twilio": "3.40.0"
+  }
+}
